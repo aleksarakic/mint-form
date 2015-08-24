@@ -1,0 +1,96 @@
+/*HEADER*/
+
+#header {
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 96px;
+}
+
+#empty {
+	height: 50px; /*Gura logo i sign dole*/
+}
+
+#mint-logo {
+	float: left;
+}
+
+#mint-logo img {
+	width: 89px;
+}
+
+#signlog {
+	float: right;
+	height: 32px;
+}
+
+#signup {
+	padding-right: 8px; /*uspravna crta*/
+	border-right: 1px solid #ccc;
+	display: inline-block;
+}
+
+#signup a {
+	font-weight: bold;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-decoration: none;
+	color: #333333;
+}
+
+#login {
+	padding-left: 5px; /*Zbog uspravne crte*/
+	display: inline-block;
+}
+
+#login a {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-decoration: none;
+	color: #333333;
+}
+
+/*FORMBODY*/
+
+#formbody {
+	background-color: white;
+	box-shadow: 3px 3px 3px #ccc; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+
+#formheader {
+	background-color: white; 
+}
+
+h1 {
+	display: inline-block;
+	font-size: 28px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color: #333;
+}
+
+#form {
+	background-color: green;
+	width: 67%;
+	display: inline-block;
+}
+
+#formlist {
+	background-color: yellow;
+	width: 33%;
+	display: inline-block;
+}
+
+#formfooter {
+	background-color: blue;
+}
+
+/*FOOTER*/
+
+#footer {
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
