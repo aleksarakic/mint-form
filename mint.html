@@ -31,22 +31,85 @@
 			<div id="formheader">
 				<h1>Create a new account</h1>
 			</div><!-- 
+				--><form class="col-big" action="#" method="post">
+				<fieldset>
 
-			--><div id="form">
-				form
-			</div><!-- 
+					<label>
+						Your Email
+						<input class="email" type="email" name="email" required>
+					</label>
 
-			--><div id="formlist">
-				formlist
-			</div><!-- 
-			--><div id="formfooter">
-				formfooter
+					<label>
+						Confirm Email
+						<input class="email" type="email" name="email" required>
+					</label>
+
+					<label>
+						Country
+						<select name="Country" required>
+							<option value="Serbia" selected>Serbia</option>
+							<option value="France">France</option>
+			        <option value="Germany">Germany</option>
+			        <option value="Norway">Norway</option>
+						</select>
+					</label>
+
+					<label>
+						Zip Code
+						<input class="zipcode" type="text" required>
+					</label>
+
+					<label>
+						Password
+						<input class="password" type="password" required>
+					</label>
+
+					<label>
+						Confirm Password
+						<input class="password" type="password" required>
+					</label>
+
+					<input id="aki" type="checkbox">Yes, I agree to the Mint Terms of Use.
+				</fieldset>
+				</form>	
+			<!-- 
+	-->		<div id="formlist">
+					<h3>Why you will love it</h3>
+					<ul>
+						<li>See all your accounts in one place</li>
+						<li>Set a budget and pay down your debt</li>
+						<li>Find the best ways to grow your money</li>
+						<li>Stay <a href="#">safe and secure</li>
+					</ul>
+				</div>
+			<!-- 
+		--><div>
+			
+			</div><!--
+
+		--><div id="formfooter">
+				<input id="submit-btn" type="submit" name="submit" value="SIGN UP">
 			</div>
 		</div>
 
-		<div id="footer">
-			footer
-		</div>
+		<footer>
+			<div id="links">
+				<a href="#">Support Community</a>
+				<a href="#">Terms Of Use</a>
+				<a href="#">Privacy</a>
+				<a href="#">Legal and Trademark Notices</a>
+				<a href="#">About Intuit</a>
+			</div>
+
+			<div id="security">
+				<img id="norton" src="pictures/norton.gif">
+				<img id="truste" src="pictures/TRUSTe1.png">
+			</div>
+
+			<div id="copyright">
+				<p>&copy;2015 Intuit, Inc.  |  ph6987.89 - spa57.6</p>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>
