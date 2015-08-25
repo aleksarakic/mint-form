@@ -73,15 +73,19 @@ body {
 h1 {
 	display: inline-block;
 	font-size: 28px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #333;
-  padding-left: 12px;
+  margin-left: 40px;
+  padding-top: 12px;
+  padding-bottom: 10px;
 }
 
 form {
 	background-color: white;
-	width: 67%;
+	width: 60%;
 	display: inline-block;
+	margin-left: 30px;
+	margin-top: 12px;
 }
 
 fieldset {
@@ -113,18 +117,34 @@ select,
 	width: 126px;
 }
 
-#col-small {
-}
-
 #formlist {
-	background-color: yellow;
 	width: 30%;
 	display: inline-block;
-	
+	background: #f5f5f5;
+	position: relative;
+	bottom: 260px; /*ovo ispraviti*/
+  margin-left: 15px;
+}
+
+#formlist h3 {
+	font-weight: normal;
+	margin-left: 23px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color: #666;
 }
 
 #formlist ul {
 	font-size: 12px;
+	color: #666;
+	padding-right: 5px;
+}
+
+#formlist ul li {
+	padding-bottom: 2px;
+}
+
+#formlist a {
+	color: #666;
 }
 
 #formfooter {
@@ -132,9 +152,9 @@ select,
 }
 
 #submit-btn {
-	margin-left: 12px;
-	margin-top: 12px;
-	margin-bottom: 12px;
+	margin-left: 45px;
+	margin-top: 24px;
+	margin-bottom: 24px;
 	border-radius: 3px;
 	background-color: #45cae6;
 	width: 90px;
@@ -203,8 +223,9 @@ footer img {
 }
 
 #copyright {
-	margin-right: auto;
-	margin-left: auto;
+	margin-top: 17px;
+	margin-left: 225px;
+	padding-bottom: 40px; 
 	font-size: 13px;
 	color: #ccc;
 	font-family: Verdana sans-serif;
